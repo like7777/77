@@ -1,0 +1,44 @@
+body{
+	margin: 0px; /*外边距*/
+	padding: 0px; /*内边距*/
+	background: #F8F8F8;
+}
+#div1{
+	width: 100%;   /*宽度*/
+	height: 40px;  /*宽度*/
+	background: #F8F8F8;  /*背景色*/
+}
+#div1_1{
+	width: 1200px;
+	height: 40px;
+	/*background: #F8F8F8;*/
+	margin: 0px auto;
+}
+#div1_1_left{
+	width: 393px;
+	height: 40px;
+	/*background:#F8F8F8;*/
+	float: left; /*浮动：左浮动*/
+	font-size: 12px;  /*字体大小*/
+	color: #999;  /*字体颜色*/
+	line-height: 40px ;  /*行高*/
+}
+#div1_1_left>span:nth-child(5){
+	margin-left: 20px;
+	margin-right:10px;
+}
+#div1_1_right{
+	width: 390px;
+	height: 40px;
+	/*background: #F8F8F8;*/
+	float: right;/*浮动：右浮动*/
+	font-size: 12px;  /*字体大小*/
+	color: #999;  /*字体颜色*/
+	line-height: 40px ;  /*行高*/
+}
+#div1_1_right>span{
+	padding-right: 13px;
+	padding-left: 13px;
+}
+
+
